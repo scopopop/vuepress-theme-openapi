@@ -1,23 +1,22 @@
 {
   "name": "vuepress-theme-openapi",
-  "version": "1.6.0",
-  "description": "",
+  "description": "OpenApi GUI for VuePress",
   "main": "index.js",
   "engines": {
-    "node": ">=10.21.0"
+    "node": "20"
   },
-  "repository": "/vuepress-theme-openapi",
-  "license": "ISC",
+  "repository": "scopopop/vuepress-theme-openapi",
+  "license": "Apache-2.0",
   "publishConfig": {
     "registry": "https://registry.npmjs.org/"
   },
   "dependencies": {
-    "axios": "^0.21.1",
+    "axios": "^1.4.0",
     "file-saver": "^2.0.5",
-    "glob": "^7.1.6",
-    "js-yaml": "^4.0.0",
+    "glob": "^10.3.0",
+    "js-yaml": "^4.1.0",
     "js-yaml-loader": "^1.2.2",
-    "swagger-ui": "^3.33.0",
-    "yaml": "^1.10.0"
+    "swagger-ui": "^5.1.0",
+    "yaml": "^2.3.1"
   }
 }
